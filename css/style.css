@@ -1,0 +1,221 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--Escritura mayuscula--*/
+#txtFolio{text-transform: uppercase;}
+#txtNombre{text-transform: uppercase;}
+#txtApellidoPaterno{text-transform: uppercase;}
+#txtApellidoMaterno{text-transform: uppercase;}
+#txtFacebook{text-transform: uppercase;}
+#txtCorreo{text-transform: uppercase;}
+#txtCorreoVerificacion{text-transform: uppercase;}
+#txtTelefono{text-transform: uppercase;}
+#txtEstados{text-transform: uppercase;}
+
+.bg-gn {
+    background-color: #E4E4E4;
+}
+
+/*--colors--*/
+.bg-g {
+    background-color: #142652;
+}
+
+/*--Sombra--*/
+.sh {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.19);
+}
+
+/*--border--*/
+.born {
+    border-radius: 0px;
+}
+
+/*--Margins--*/
+.my-mid {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.mx-6 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.nm {
+    margin: 0 !important;
+}
+
+/*---padding--*/
+.pb-8 {
+    padding-bottom: 70px;
+}
+
+.pb-8b {
+    padding-bottom: 70px;
+}
+
+.np {
+
+    padding: 0 !important;
+}
+
+/*---Text- body- css--*/
+.bt {
+    color: #1E3B80 !important;
+    font-size: 20px;
+    display: block;
+}
+
+.bb {
+    color: #1E3B80 !important;
+    font-weight: bold;
+}
+.red-c{
+    color: crimson !important;
+    font-size: 15px;
+}
+
+/*---Selected style---*/
+.stl {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    padding: 18px 12px 18px;
+    height: inherit;
+    box-sizing: border-box;
+}
+
+/*--fuentes--*/
+.fbc {
+    font-size: 25px;
+}
+
+/*--align--*/
+.cm {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*---width custom---*/
+.w-40 {
+    width: 40%;
+}
+.w-ad{
+    width: 65% ;
+}
+.w-usu{
+    width: 90%;
+}
+.w-inpn{
+    width: 32%;
+}
+
+/*---Media---*/
+@media (max-width: 575.98px) {
+    .w-40 {
+        width: 90%;
+    }
+    .w-inpn{
+        width: 100%;
+    }
+    .w-usu{
+        width: 100%;
+    }
+    .pb-8b {
+        padding-bottom: 40px;
+    }
+
+    .mx-6 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .cm {
+        position: inherit;
+        margin-top: 50px;
+        margin-bottom: 50px !important;
+        left: 00%;
+        top: 0%;
+        transform: translate(-00%, -00%);
+    }
+
+    /*---*/
+    .w-ad {
+        width: 90%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .w-40 {
+        width: 90%;
+    }
+    .w-inpn{
+        width: 100%;
+    }
+    .w-usu{
+        width: 100%;
+    }
+    .mx-6 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .cm {
+        position: inherit;
+        margin-top: 50px;
+        margin-bottom: 50px !important;
+        left: 00%;
+        top: 0%;
+        transform: translate(-00%, -00%);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .w-40 {
+        width: 70%;
+    }
+    .w-inpn{
+        width: 100%;
+    }
+    .w-usu{
+        width: 100%;
+    }
+    .mx-6 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .cm {
+        position: inherit;
+        margin-top: 50px;
+        margin-bottom: 50px !important;
+        left: 00%;
+        top: 0%;
+        transform: translate(-00%, -00%);
+    }
+
+    /*---*/
+    .w-ad {
+        width: 70%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+    .w-inpn{
+        width: 30%;
+        font-size: 14px;
+    }
+    .num{
+        font-size: 10px;
+    }
+    .w-usu{
+        width: 100%;
+        font-size: 10px;
+    }
+}
